@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import { title } from 'process';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'siteweb';
+
+
+  datosMenu=[{
+    'titulo': 'Barrio',
+    'icon':'bx bxs-store',
+    'url':'https://github.com/'
+  }]
 }

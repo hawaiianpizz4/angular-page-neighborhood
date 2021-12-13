@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.header{
+    height: 100vh;
+    /* 02 */
+    background-image: linear-gradient(to top, rgba(39, 39, 39, 0.631) 0%, hsla(284, 5%, 39%, 0.514) 100%), url(/assets/wallpaper_fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top:20px;
+    
+}
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.spread{
+    transform: translateX(0);
+}
+
+.menu-navegacion a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.lakennedy{
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+    font-size: 200px;
+}
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/* Services */
+
+.subtitulo{
+    color: #9f8ad0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img{
+    width: 40%;
+}
+
+.checklist-servicio{
+    width: 45%;
+}
+
+.service{
+    margin-bottom: 20px;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: #9f8ad0;
+}
